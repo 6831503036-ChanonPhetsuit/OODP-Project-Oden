@@ -1,0 +1,21 @@
+//Type,Name,Price,Pieces
+Meat,Quail Egg,25,4
+Meat,Chicken Ball,30,4
+Meat,Arabiki Sausage,45,1
+Meat,Seaweed Chicken,40,3
+Meat,Beef Slice,55,3
+Vegetable,Daikon,25,2
+Vegetable,Potato,25,2
+Vegetable,Konjac,20,3
+Vegetable,Lotus Root,30,3
+Vegetable,Shiitake,35,3
+Vegetable,Fried Tofu,30,3
+Vegetable,Mochi Kinchaku,40,1
+Vegetable,Vegetable Ball,25,4
+Seafood,Fish Tofu,35,4
+Seafood,Fish Dumpling,35,3
+Seafood,Hanpen,40,2
+Seafood,Chikuwa,35,3
+Seafood,Octopus,60,2
+Seafood,Abalone,80,1
+Seafood,Kombu,20,1
