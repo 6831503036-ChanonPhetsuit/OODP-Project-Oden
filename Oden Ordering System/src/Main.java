@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Load menu from file
-        menu = FileManager.loadMenu("src/menu.txt");
+        menu = FileManager.loadMenu("Oden Ordering System/src/menu.txt");
 
         while (true) {
             System.out.println("\n===== ODEN SHOP =====");
