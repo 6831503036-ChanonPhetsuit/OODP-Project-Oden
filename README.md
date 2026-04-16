@@ -8,12 +8,13 @@ This project is a console-based Oden ordering system developed in Java. It allow
 **Motivation**: The motivation behind this project is to bridge theoretical OOP concepts with real-world applications, particularly in the context of modern restaurant technologies. Self-ordering systems are increasingly popular as they improve efficiency, reduce staff workload, and enhance customer convenience. This project was designed to reflect these real-world systems while also providing hands-on experience in designing software that is modular, reusable, and adaptable to future changes, such as adding new menu categories or modifying pricing rules.
 
 **Problem Statement**: The system is required to effectively manage the food ordering process with the following capabilities:
--Load menu data from a file and categorize items (Meat, Seafood, Vegetable)
--Allow users to select items and input quantities with proper validation
--Support order management functions such as adding, removing, and clearing items
--Apply category-based pricing rules (Seafood +10%, Vegetable -10%, Meat base price)
--Generate and display a receipt, create a unique order ID, and save order data to a file
--Handle errors gracefully, including invalid input and file operation issues
+
+   -Load menu data from a file and categorize items (Meat, Seafood, Vegetable)
+   -Allow users to select items and input quantities with proper validation
+   -Support order management functions such as adding, removing, and clearing items
+   -Apply category-based pricing rules (Seafood +10%, Vegetable -10%, Meat base price)
+   -Generate and display a receipt, create a unique order ID, and save order data to a file
+   -Handle errors gracefully, including invalid input and file operation issues
 
 The system uses a menu-driven interface with options to order food, view orders, checkout, or exit. It emphasizes type safety, reusability, and separation of concerns through OOP design.
 
