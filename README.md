@@ -1,24 +1,25 @@
 # OODP-Project-Oden
 
 ## Project Overview
+This project is a console-based Oden ordering system developed in Java. It allows users to browse a menu, add, remove, and modify items in their order, and complete the checkout process with receipt generation. The system is designed using Object-Oriented Programming (OOP) principles to ensure a well-structured, maintainable, and extensible architecture. It also reflects the concept of modern self-ordering systems commonly used in restaurants today.
 
-**Purpose**: This project implements an object-oriented ordering system for an "Oden" shop, which is a traditional Japanese hot pot dish consisting of various skewered ingredients (meats, seafood, and vegetables) simmered in broth. The system allows customers to browse a menu, add items to their order, view and modify their selections, and complete checkout with receipt generation. It serves as a practical demonstration of object-oriented programming (OOP) principles in Java.
+**Purpose**: The main purpose of this project is to develop a practical food ordering system that can be applied to real-life scenarios. It simulates self-service ordering technologies such as kiosks and mobile ordering applications, where customers can independently select and manage their orders. Additionally, the project aims to demonstrate key OOP concepts including inheritance, polymorphism, encapsulation, and abstraction, along with the use of collections and file I/O to build a scalable and organized system.
 
-**Motivation**: The project was created to illustrate key OOP concepts such as inheritance, polymorphism, encapsulation, abstraction, interfaces, generics, collections, exception handling, and file I/O. It applies these principles to a real-world scenario of managing a customizable food order, where different item categories have varying pricing rules (e.g., seafood premiums, vegetable discounts). This makes it an educational tool for learning how to structure maintainable, extensible code for business applications.
+**Motivation**: The motivation behind this project is to bridge theoretical OOP concepts with real-world applications, particularly in the context of modern restaurant technologies. Self-ordering systems are increasingly popular as they improve efficiency, reduce staff workload, and enhance customer convenience. This project was designed to reflect these real-world systems while also providing hands-on experience in designing software that is modular, reusable, and adaptable to future changes, such as adding new menu categories or modifying pricing rules.
 
-**Problem Statement**: Design and implement a console-based application that:
-- Loads a menu of Oden ingredients from a file, categorized into meats, seafood, and vegetables.
-- Allows users to interactively add items to an order with quantity validation.
-- Supports viewing, modifying (adding/removing items or quantities), and clearing orders.
-- Applies category-specific pricing: seafood items have a 10% markup, vegetable items have a 10% discount, and meat items use base pricing.
-- Handles checkout by displaying a receipt, generating a unique order ID, and saving the order to a file.
-- Ensures robust error handling for invalid inputs, file operations, and business rules (e.g., non-positive quantities).
+**Problem Statement**: The system is required to effectively manage the food ordering process with the following capabilities:
+-Load menu data from a file and categorize items (Meat, Seafood, Vegetable)
+-Allow users to select items and input quantities with proper validation
+-Support order management functions such as adding, removing, and clearing items
+-Apply category-based pricing rules (Seafood +10%, Vegetable -10%, Meat base price)
+-Generate and display a receipt, create a unique order ID, and save order data to a file
+-Handle errors gracefully, including invalid input and file operation issues
 
 The system uses a menu-driven interface with options to order food, view orders, checkout, or exit. It emphasizes type safety, reusability, and separation of concerns through OOP design.
 
 ## Description of Each Class/Function
 
-Below, I describe each class in the project, including its purpose, key methods, and how it contributes to the overall system. The classes demonstrate various OOP concepts like inheritance (MenuItem hierarchy), polymorphism (pricing and printing), composition (OrderItem aggregates MenuItem), interfaces (Printable), generics (collections), and exception handling.
+Below is a description of each class in the project, including its purpose, key methods, and how it contributes to the overall system. The classes demonstrate various OOP concepts like inheritance (MenuItem hierarchy), polymorphism (pricing and printing), composition (OrderItem aggregates MenuItem), interfaces (Printable), generics (collections), and exception handling.
 
 1. **Main.java** (Entry Point and User Interface Controller)
    - **Purpose**: Serves as the application's entry point and handles all user interactions via a console-based menu system. It manages the main application loop, user input/output, and delegates tasks to other classes.
